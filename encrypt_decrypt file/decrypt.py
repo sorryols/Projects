@@ -1,6 +1,7 @@
 import pyAesCrypt
 import os
 
+
 def decrypt(file, password):
     buffer_size = 512 * 1024
 
@@ -29,5 +30,7 @@ def walking_by_dirs(dir, password):
             walking_by_dirs(path, password)
 
 
-pasword = input("Enter password: ")
-walking_by_dirs("C:\\Users\\koty1\\OneDrive\\Рабочий стол\\etest", pasword)
+message = "hi"
+
+# pasword = input("Enter password: ")
+# walking_by_dirs("C:\\Users\\koty1\\OneDrive\\Рабочий стол\\etest", pasword)
