@@ -22,7 +22,7 @@ def show_jpg():
 
 
 def hide_key():
-    #Steganography.generate_key("")
+    #Steganography.generate_key("")    #if you dont have file key.key uncoment this string
     secret = Steganography.encrypt("key.key", "img.png", "text")
     secret.save("img_secret3.png")
 
