@@ -30,7 +30,5 @@ def walking_by_dirs(dir, password):
             walking_by_dirs(path, password)
 
 
-message = "hi"
-
-# pasword = input("Enter password: ")
-# walking_by_dirs("C:\\Users\\koty1\\OneDrive\\Рабочий стол\\etest", pasword)
+pasword = input("Enter password: ")
+walking_by_dirs("C:\\Users\\koty1\\OneDrive\\Рабочий стол\\etest", pasword)
